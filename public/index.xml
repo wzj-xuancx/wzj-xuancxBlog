@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Xuancx的大窝</title>
+        <link>//localhost:1313/</link>
+        <description>Recent content on Xuancx的大窝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Wed, 15 May 2024 21:04:26 +0800</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>新学者的程序</title>
+        <link>//localhost:1313/p/%E6%96%B0%E5%AD%A6%E8%80%85%E7%9A%84%E7%A8%8B%E5%BA%8F/</link>
+        <pubDate>Wed, 15 May 2024 21:04:26 +0800</pubDate>
+        
+        <guid>//localhost:1313/p/%E6%96%B0%E5%AD%A6%E8%80%85%E7%9A%84%E7%A8%8B%E5%BA%8F/</guid>
+        <description>&lt;p&gt;这里就是一个新学者的程序blog&lt;/p&gt;
+&lt;h1&gt; 第一章
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>//localhost:1313/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>//localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>//localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>//localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;嘿嘿，xuancx个人博客搭建ing&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>//localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>//localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

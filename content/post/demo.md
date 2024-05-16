@@ -22,4 +22,7 @@ tags:
 
 <h1> 第一章
 
-C语言的起源...
+```
+#include <bits/stdc++.h>
+...
+```
