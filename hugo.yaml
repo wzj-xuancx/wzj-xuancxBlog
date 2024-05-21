@@ -31,10 +31,8 @@ services:
 permalinks:
     post: /p/:slug/
     page: /:slug/
-
 # whether to use emoji code
 enableEmoji: true
-
 params:
     mainSections:
         - post
@@ -43,15 +41,15 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2024
+        since: 2020
         customText:
 
     dateFormat:
-        published: 2006-01-02
-        lastUpdated: 2006-01-02
+        published: Jan 02, 2006
+        lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 😤
+        emoji: 🍥
         subtitle: 你我终会沦为尘埃漂流
         avatar:
             enabled: true
@@ -65,32 +63,96 @@ params:
         license:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
-        edit:
-            enabled: true
 
     comments:
         enabled: true
-        provider: waline
+        provider: disqus
+
+        disqusjs:
+            shortname:
+            apiUrl:
+            apiKey:
+            admin:
+            adminLabel:
+
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+
+        beaudar:
+            repo:
+            issueTerm: pathname
+            label:
+            theme:        
+
+        remark42:
+            host:
+            site:
+            locale:
+
+        vssue:
+            platform:
+            owner:
+            repo:
+            clientId:
+            clientSecret:
+            autoCreateIssue: false
+
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL: https://waline.paxton-cloud.top/api
-            lang: 
-            visitor: false
-            avatar: true
+            serverURL:
+            lang:
+            pageview:
             emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+                - https://unpkg.com/@waline/emojis@1.0.1/weibo
             requiredMeta:
-                - nick
-                - mail
-            placeholder:
+                - name
+                - email
+                - url
             locale:
                 admin: Admin
+                placeholder:
 
-        widgets:
-          homepage:
+        twikoo:
+            envId:
+            region:
+            path:
+            lang:
+
+        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
+        cactus:
+            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+            serverName: "cactus.chat"
+            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+
+        giscus:
+            repo:
+            repoID:
+            category:
+            categoryID:
+            mapping:
+            lightTheme:
+            darkTheme:
+            reactionsEnabled: 1
+            emitMetadata: 0
+
+        gitalk:
+            owner:
+            admin:
+            repo:
+            clientID:
+            clientSecret:
+
+        cusdis:
+            host:
+            id:
+    widgets:
+        homepage:
+            - type: search
             - type: archives
               params:
-                  limit: 3
+                  limit: 5
             - type: categories
               params:
                   limit: 10
@@ -99,14 +161,7 @@ params:
                   limit: 10
         page:
             - type: toc
-        archives:
-            limit: 10000
 
-        tagCloud:
-            limit: 10000
-            
-        categoriesCloud:
-            limit: 10000
     opengraph:
         twitter:
             # Your Twitter username
@@ -126,13 +181,13 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: light
+        default: auto
 
     imageProcessing:
         cover:
-            enabled: false
+            enabled: true
         content:
-            enabled: false
+            enabled: true
 
 ### Custom menu
 ### See https://stack.jimmycai.com/config/menu
