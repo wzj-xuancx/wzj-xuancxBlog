@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-author: ["Xuancx"]
+author: ["Paxton-PKJ"]
 summary: ""             # 简单描述，会展示在主页，可被搜索
 weight:                 # 输入1可以顶置文章
 draft: false            # 是否为草稿
