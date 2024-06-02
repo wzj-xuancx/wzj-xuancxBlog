@@ -133,23 +133,26 @@
     .site-name {
         color: var(--accent-color);
         margin: 0;
-        font-size: 1.6rem;
-
+        font-size: 1.8rem;
+        text-align: center;  // 站点名称文本居中
+    
         @include respond(2xl) {
-            font-size: 1.8rem;
+            font-size: 2rem;
         }
     }
-
+    
     .site-description {
         color: var(--body-text-color);
         font-weight: normal;
-        margin: 0;
-        font-size: 1.4rem;
-
+        margin: 10px 0;
+        font-size: 1.2rem;
+        text-align: center;  // 站点描述居中
+    
         @include respond(2xl) {
             font-size: 1.6rem;
         }
     }
+    
 }
 
 [data-scheme="dark"] {
