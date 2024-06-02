@@ -520,3 +520,13 @@ a {
     background-position: -1px 2px;
   }
 }
+
+.section-term {
+	font-size: 1.8rem; 
+    letter-spacing:1px;
+}
+
+::selection {
+    color: #fff;
+    background: #557697;
+}

@@ -96,10 +96,12 @@
 
     .site-avatar {
         position: relative;
-        margin: 0;
+        margin-left: auto;  // 站点头像居中
+        margin-right: auto;  // 站点头像居中
         width: var(--sidebar-avatar-size);
         height: var(--sidebar-avatar-size);
         flex-shrink: 0;
+        margin-bottom: var(--sidebar-element-separation);
 
         .site-logo {
             width: 100%;
