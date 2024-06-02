@@ -29,8 +29,8 @@
     }
 
     @include respond(2xl) {
-        --sidebar-avatar-size: 120px;
-        --sidebar-element-separation: 25px;
+        --sidebar-avatar-size: 130px;
+        --sidebar-element-separation: 10px;
         --emoji-size: 40px;
     }
 
