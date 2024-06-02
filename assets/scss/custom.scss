@@ -530,3 +530,65 @@ a {
     color: #fff;
     background: #557697;
 }
+
+.subsection-list {
+    margin-bottom: var(--section-separation);
+    overflow-x: auto;
+
+    .article-list--tile {
+        display: flex;
+        padding-bottom: 15px;
+
+        article {
+            width: 200px;  // 修改分类的标签大小
+            height: 50px; 
+            margin-right: 5px; 
+            flex-shrink: 0;
+            // box-shadow: var(--shadow-l2); 
+
+            .article-title {
+                margin: 0;
+                font-size: 1.5rem; 
+                text-align: center;  // 保证字居中美观一点
+            }
+
+            .article-details {
+                padding: 20px;
+                justify-content: center; 
+            }
+        }
+    }
+}
+
+.related-contents--wrapper {
+    .related-contents {
+        article {
+            width: 200px;
+            height: 85px;
+            .article-title {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+html {
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+}
