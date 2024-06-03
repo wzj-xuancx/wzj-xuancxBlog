@@ -1,6 +1,5 @@
 ---
 title: "友链"
-date: 2024-06-03
 layout: "friend"
 slug: "friend"
 menu:
