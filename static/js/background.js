@@ -19,7 +19,7 @@
             z: get_attribute(script, "zIndex", -1), //z-index
             o: get_attribute(script, "opacity", 0.8), //opacity
             c: get_attribute(script, "color", "255,255,255"), //color
-            n: get_attribute(script, "count", 100) //count
+            n: get_attribute(script, "count", 170) //count
         };
     }
 
