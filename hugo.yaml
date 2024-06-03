@@ -194,7 +194,6 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: 
-    	# Links 友链
         - identifier: links
         name: Links
         url: /links
