@@ -17,7 +17,6 @@
                 // 当前时间
                 now.setTime(now.getTime() + 250);
                 var grt = new Date("2024/01/01 00:00:00"); //网站诞生时间
-                console.log(grt);
                 days = (now - grt) / 1000 / 60 / 60 / 24;
                 dnum = Math.floor(days);
                 hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
@@ -36,7 +35,9 @@
             setInterval("createtime()", 250); 
         </script>
 
+
         <br>
+
         <span id="voyager">载入旅行者一号离地球距离信息...</span>
 
         <script language="javascript">
