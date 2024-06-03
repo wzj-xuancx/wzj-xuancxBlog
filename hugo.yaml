@@ -193,7 +193,15 @@ params:
 ### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main: 
+    	# Links 友链
+        - identifier: links
+        name: Links
+        url: /links
+        weight: -75
+        params:
+          icon: links
+
 
 
 related:

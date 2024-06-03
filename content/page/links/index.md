@@ -1,16 +1,9 @@
 ---
-title: "『 Links 』友情链接"
+title: "友链"
 layout: "links"
 slug: "links"
 license: false
 toc: false
-menu:
-    main:
-        weight: -70
-	name: "友链"
-	url: /links
-        params: 
-            icon: link
 ---
 
 <!-- 此处为了正常演示添加反斜杠防止转译。 -->
