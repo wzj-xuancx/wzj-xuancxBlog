@@ -182,13 +182,19 @@ a {
     min-height: 100vh;
     align-items: flex-start;
     padding: 0 15px;
-    gap: var(--section-separation);
+    gap: 50px; //文章宽度
     padding-top: var(--main-top-padding);
 
     @include respond(md) {
-        padding: 0 37px;
+        padding: 0 30px;
+        gap: 40px;
     }
 }
+
+.related-contents {
+    overflow-x: visible; //显示隐藏的图标
+    padding-bottom: 15px;
+  }
 
 //--------------------------------------------------
 //页面三栏宽度调整
@@ -592,3 +598,48 @@ html {
         background-color: #a8bbbf;
       }
 }
+
+
+/*-----------归档页面----------*/
+//归档页面卡片缩放
+.article-list--tile article {
+    transition: .6s ease;
+  }
+  
+  .article-list--tile article:hover {
+    transform: scale(1.03, 1.03);
+  }
+  
+
+  /*------------------右侧导航栏--------------*/
+// 搜索菜单动画
+.search-form.widget {
+    transition: transform 0.6s ease;
+  }
+  
+  .search-form.widget:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  
+  //归档小图标放大动画
+  .widget.archives .widget-archive--list {
+    transition: transform .3s ease;
+  }
+  
+  .widget.archives .widget-archive--list:hover {
+    transform: scale(1.05, 1.05);
+  }
+  
+  
+  //右侧标签放大动画
+  .tagCloud .tagCloud-tags a {
+    border-radius: 10px;
+    font-size: 1.4rem;
+    transition: transform .3s ease;
+  }
+  
+  .tagCloud .tagCloud-tags a:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
