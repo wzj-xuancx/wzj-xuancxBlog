@@ -1,5 +1,7 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
 //  ~\blog\assets\scss\custom.scss
+
+@import "partials/layout/links.scss";
 :root {
     --body-background: #F5F5FA;//页面背景色
     --accent-color: #1B365D;//主题色
