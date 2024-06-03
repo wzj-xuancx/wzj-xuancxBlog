@@ -195,11 +195,11 @@ params:
 menu:
     main: 
         - identifier: links
-        name: Links
-        url: /links
-        weight: -75
-        params:
-          icon: links
+          name: Links
+          url: /links
+          weight: -75
+          params:
+            icon: links
 
 
 
