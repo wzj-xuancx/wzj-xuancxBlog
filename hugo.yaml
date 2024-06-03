@@ -42,8 +42,7 @@ params:
 
     footer:
         since: 2024
-        customText: <a href="https://beian.miit.gov.cn/" target="_blank">备案号</a>
-                    <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022030313号-1</a>
+        customText: 
 
     dateFormat:
         published: Jan 02, 2006
@@ -108,9 +107,9 @@ params:
             emoji:
                 - https://unpkg.com/@waline/emojis@1.0.1/weibo
             requiredMeta:
-                - name
-                - email
-                - url
+                - name 
+                - email  
+                - url 
             locale:
                 admin: Admin
                 placeholder:
@@ -194,7 +193,12 @@ params:
 ### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main: 
+        - identifier: link
+          name: 友链
+          url: /
+          params:
+            icon: link
 
 
 related:
