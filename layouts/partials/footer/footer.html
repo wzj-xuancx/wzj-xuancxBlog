@@ -1,6 +1,14 @@
 {{- $ThemeVersion := "3.26.0" -}}
 <footer class="site-footer">
     <section class="copyright">
+
+        &copy;
+        {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
+        {{ .Site.Params.footer.since }} -
+        {{ end }}
+        {{ now.Format "2006" }} {{ default .Site.Title .Site.Copyright }}
+
+        <br>
         <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 
         <script language="javascript">
@@ -8,7 +16,8 @@
             function createtime () {
                 // 当前时间
                 now.setTime(now.getTime() + 250);
-                var grt = new Date("20xx/xx/xx 00:00:00"); //网站诞生时间
+                var grt = new Date("2024/05/01 00:00:00"); //网站诞生时间
+                console.log(grt);
                 days = (now - grt) / 1000 / 60 / 60 / 24;
                 dnum = Math.floor(days);
                 hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
@@ -27,11 +36,6 @@
             setInterval("createtime()", 250); 
         </script>
 
-        &copy;
-        {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
-        {{ .Site.Params.footer.since }} -
-        {{ end }}
-        {{ now.Format "2006" }} {{ default .Site.Title .Site.Copyright }}
     </section>
 
     <section class="powerby">
