@@ -196,7 +196,7 @@ menu:
     main: 
         - identifier: link
           name: 友链
-          url: /
+          url: /link
           params:
             icon: link
 
