@@ -643,6 +643,9 @@ html {
     transform: scale(1.1, 1.1);
   }
   
+  body{
+    position: relative;
+  }
 
   // 字体
 body, .article-content {
@@ -650,7 +653,10 @@ body, .article-content {
     }
     
 
-body {
+body::after {
+    position: absolute;
+    z-index: -1;
+
     background-image: url("/img/background1.png") !important;
     /* 照片不重复出现 */
     background-repeat: no-repeat;
@@ -658,4 +664,6 @@ body {
     background-size: 100% 100%;
     /* 右侧滚动时照片固定大小 */
     background-attachment: fixed;
+
+    opacity: 0.5;
 }
