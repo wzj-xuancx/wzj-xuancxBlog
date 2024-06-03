@@ -1,5 +1,5 @@
 ---
-title: "友链"
+title: "『 Links 』友情链接"
 layout: "links"
 slug: "links"
 license: false
