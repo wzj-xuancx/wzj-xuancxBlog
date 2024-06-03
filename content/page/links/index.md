@@ -7,6 +7,8 @@ toc: false
 menu:
     main:
         weight: -70
+	name: "友链"
+	url:/links
         params: 
             icon: link
 ---
