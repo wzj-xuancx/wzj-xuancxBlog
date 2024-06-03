@@ -195,11 +195,11 @@ params:
 menu:
     main: 
         - identifier: links
-          name: Links
+          name: 友链
           url: /links
           weight: -75
           params:
-            icon: links
+              icon: link
 
 
 
