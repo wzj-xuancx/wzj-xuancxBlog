@@ -3,7 +3,7 @@ title: HTML笔记
 slug: html-1ufkcv
 url: /post/html-1ufkcv.html
 date: '2024-03-20 20:14:52+08:00'
-lastmod: '2024-06-04 22:20:17+08:00'
+lastmod: '2024-06-05 00:38:58+08:00'
 toc: true
 tags:
   - 大三
@@ -15,7 +15,9 @@ description: Web的HTMl简述
 isCJKLanguage: true
 ---
 
-# html
+# HTML笔记
+
+## html
 
 * ​`<h1> </h1>`​ 一直从1~6 是标题，1最大，6最小
 * ​`<p> </p>`​：段落小字体
