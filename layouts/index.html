@@ -18,7 +18,9 @@
         <span class="jump-text8" style="color:#e99312">'s</span>
         <span class="jump-text9" style="color:#e99312">Blog</span>
     </p>
+
 </div>
+
 <!-- ------首页欢迎字幅板块------ -->
 <section class="article-list">
     {{ range $index, $element := $pag.Pages }}
@@ -33,4 +35,3 @@
 {{ define "right-sidebar" }}
 {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
 {{ end }}
-

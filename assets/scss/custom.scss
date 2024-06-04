@@ -222,19 +222,19 @@ a {
     &.extended {
         @include respond(md) {
             max-width: 1024px;
-            --left-sidebar-max-width: 25%;
+            --left-sidebar-max-width: 23%;
             --right-sidebar-max-width: 22% !important;
         }
 
         @include respond(lg) {
             max-width: 1280px;
-            --left-sidebar-max-width: 20%;
+            --left-sidebar-max-width: 18%;
             --right-sidebar-max-width: 30%;
         }
 
         @include respond(xl) {
             max-width: 1453px; //1536px;
-            --left-sidebar-max-width: 15%;
+            --left-sidebar-max-width: 10%;
             --right-sidebar-max-width: 25%;
         }
     }
@@ -374,36 +374,42 @@ a {
     display: inline-block;
     animation: jump 0.5s 1;
     animation-delay: 0.2s;
+    
 }
 
 .jump-text4 {
     display: inline-block;
     animation: jump 0.5s 1;
     animation-delay: 0.3s;
+    margin-left: -5px;
 }
 
 .jump-text5 {
     display: inline-block;
     animation: jump 0.5s 1;
     animation-delay: 0.4s;
+    margin-left: -5px;
 }
 
 .jump-text6 {
     display: inline-block;
     animation: jump 0.5s 1;
     animation-delay: 0.5s;
+    margin-left: -5px;
 }
 
 .jump-text7 {
     display: inline-block;
     animation: jump 0.5s 1;
     animation-delay: 0.6s;
+    margin-left: -5px;
 }
 
 .jump-text8 {
     display: inline-block;
     animation: jump 0.5s 1;
     animation-delay: 0.7s;
+    margin-left: -5px;
 }
 
 .jump-text9 {
