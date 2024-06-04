@@ -13,11 +13,11 @@ categories:
 keywords: 大三,web
 description: Web的HTMl简述
 isCJKLanguage: true
+image: https://image-host-pkj.oss-cn-guangzhou.aliyuncs.com/image.png
 ---
 
 # HTML笔记
 
-## html
 
 * ​`<h1> </h1>`​ 一直从1~6 是标题，1最大，6最小
 * ​`<p> </p>`​：段落小字体

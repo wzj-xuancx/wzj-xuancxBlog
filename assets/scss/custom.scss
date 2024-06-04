@@ -580,8 +580,26 @@ a {
             width: 200px;
             height: 85px;
             .article-title {
+                font-size: 2.1rem;
+              }
+              .article-subtitle {
                 font-size: 1.6rem;
-            }
+                line-height: 1.85;
+              }
+              .article-content h2 {
+                font-size: 2rem;
+              }
+              .article-content h3 {
+                font-size: 1.8rem;
+              }
+              .article-content h4 {
+                font-size: 1.7rem;
+              }
+              .article-content h5,
+              .article-content h6 {
+                font-size: 1.6rem;
+              }
+              
         }
     }
 }
