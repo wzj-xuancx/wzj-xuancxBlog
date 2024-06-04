@@ -1,7 +1,7 @@
 {{- partial "helper/external" (dict "Context" . "Namespace" "KaTeX") -}}
 <script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.body, {
+        renderMathInElement(document.querySelector(`.article-content`), {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
@@ -9,5 +9,6 @@
                 { left: "\\[", right: "\\]", display: true }
             ],
             ignoredClasses: ["gist"]
-        });})
+        });
+    })
 </script>

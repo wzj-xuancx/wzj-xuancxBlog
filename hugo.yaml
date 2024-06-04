@@ -12,27 +12,13 @@ DefaultContentLanguage: zh-cn
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: true
 
-languages:
-    zh-cn:
-        languageName: 中文
-        title: Xuancx的大窝
-        weight: 2
-        params:
-            description: 演示说明
-
-services:
-    # Change it to your Disqus shortname before using
-    disqus:
-        shortname: "hugo-theme-stack"
-    # GA Tracking ID
-    googleAnalytics:
-        id:
-
 permalinks:
     post: /p/:slug/
     page: /:slug/
+
 # whether to use emoji code
 enableEmoji: true
+
 params:
     mainSections:
         - post
@@ -63,12 +49,14 @@ params:
         license:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
+        edit:
+            enabled: true
 
     comments:
         enabled: true
         provider: waline
-
-        # Waline client configuration see: https://waline.js.org/en/reference/component.html
+            
+        # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
             serverURL: https://waline.xuancx.top
             lang: 
@@ -77,9 +65,9 @@ params:
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
-                - nick 
-                - email  
-            placeholder: 
+                - nick
+                - mail
+            placeholder:
             locale:
                 admin: Admin
 
@@ -121,9 +109,9 @@ params:
 
     imageProcessing:
         cover:
-            enabled: true
+            enabled: false
         content:
-            enabled: true
+            enabled: false
 
 ### Custom menu
 ### See https://stack.jimmycai.com/config/menu
