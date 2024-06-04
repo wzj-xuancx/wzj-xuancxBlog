@@ -13,7 +13,7 @@ categories:
 keywords: 大三,web
 description: Web的HTMl简述
 isCJKLanguage: true
-image: https://image-host-pkj.oss-cn-guangzhou.aliyuncs.com/image.png
+image: https://image-host-wzj.oss-cn-guangzhou.aliyuncs.com/202406050156275.png
 ---
 
 # HTML笔记
