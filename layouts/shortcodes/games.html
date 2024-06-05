@@ -1,0 +1,8 @@
+{{- $name := .Get "name" | default (.Get 0) -}}
+
+<link rel="stylesheet" href="{{- $name -}}.css">
+
+<h3>{{ $name }}</h3>
+{{ $name }}
+
+<script src="{{- $name -}}.js"></script>

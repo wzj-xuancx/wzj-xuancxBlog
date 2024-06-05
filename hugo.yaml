@@ -118,18 +118,24 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: 
-        - identifier: links
-          name: 友链
-          url: /links
-          weight: -75
-          params:
-              icon: link
         - identifier: about
           name: 关于
           url: /about
           weight: -70
           params:
               icon: user
+        - identifier: links
+          name: 友链
+          url: /links
+          weight: -70
+          params:
+              icon: link
+        - identifier: games
+          name: 游戏
+          url: /games
+          weight: 100
+          params:
+              icon: games
 
 
 

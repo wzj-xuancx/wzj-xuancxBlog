@@ -1,0 +1,39 @@
+#tetris {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #ececec; /* 改进背景颜色，使其更柔和 */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+}
+
+#game-board {
+    width: 207px;
+    height: 407px;
+    border: 4px solid #4b6014;
+    position: relative;
+    border-radius: 10px;
+    background-color: #e2e2e2; /* 调整背景颜色 */
+    margin: 0 auto;
+    overflow: hidden; /* 防止块溢出 */
+}
+
+#score {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px; /* 调整字体大小 */
+    font-weight: bold; /* 加粗字体 */
+    color: #4b6014; /* 使颜色与边框颜色相匹配 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* 添加文字阴影 */
+}
+
+.block {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #000;
+    border: 1px solid #3a3a3a;
+    box-sizing: border-box;
+    border-radius: 4px; /* 圆角效果 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加块的阴影效果 */
+}

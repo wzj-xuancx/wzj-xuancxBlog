@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gamBox {
+    width: 500px;
+    height: 500px;
+    border: 10px solid #333;
+    margin: 20px auto;
+    background-color: #fff; /* 设置白色背景 */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* 添加柔和的阴影效果 */
+    padding: 20px;
+    transition: transform 0.3s ease; /* 添加过渡效果 */
+}
+
+
+.integral {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; /* 调整字体大小 */
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-weight: 700;
+    color: #333; /* 深色字体颜色 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* 添加文字阴影 */
+    padding: 10px 0;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+    background-color: #fafafa; /* 设置浅色背景 */
+    border-radius: 10px; /* 添加圆角 */
+    overflow: hidden; /* 防止元素溢出 */
+}
+
+.snake .snake-head {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4caf50;
+    background-color: #4caf50; /* 绿色蛇头 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px; /* 添加圆角 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    transition: background-color 0.3s ease; /* 添加过渡效果 */
+}
+
+.snake .snake-head:hover {
+    background-color: #66bb6a; /* 悬停时改变颜色 */
+}
+
+.snake span {
+    font-size: 17px;
+    position: absolute;
+    left: -2.7px;
+    top: -3px;
+}
+
+.snake-body > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4caf50;
+    background-color: #81c784; /* 绿色蛇身 */
+    border-radius: 4px; /* 添加圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    transition: background-color 0.3s ease; /* 添加过渡效果 */
+}
+
+.snake-body > div:hover {
+    background-color: #a5d6a7; /* 悬停时改变颜色 */
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+    text-align: center; /* 居中对齐 */
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* 添加过渡效果 */
+}
+
+.food:hover {
+    transform: scale(1.2); /* 悬停时缩放效果 */
+}
+
+.food span {
+    font-size: 17px;
+    position: absolute;
+    left: 0; /* 调整位置 */
+    top: 0; /* 调整位置 */
+}
