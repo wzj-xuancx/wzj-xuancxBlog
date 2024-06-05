@@ -40,7 +40,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar2.jpg
+            src: "img/avatar.png"
 
     article:
         math: true

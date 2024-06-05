@@ -15,9 +15,9 @@ toc: false
 
 ### Shares With Me 💖
 
-```c
+```html
 Name: Xuancx
 Bio: 你我终会沦为尘埃漂流
-avatar: https://xuancx.top/img/avatar2_hucf2affb6825e6dae3886d6d1bb203d1a_137824_300x0_resize_q75_box.jpg
+avatar: https://cravatar.cn/avatar/25646841d6773f383b339a2b05323512
 url: https://xuancx.top
 ```
