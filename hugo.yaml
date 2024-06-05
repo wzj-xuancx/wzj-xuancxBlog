@@ -124,6 +124,12 @@ menu:
           weight: -75
           params:
               icon: link
+        - identifier: about
+          name: 关于
+          url: /about
+          weight: -70
+          params:
+              icon: user
 
 
 

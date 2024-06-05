@@ -1,12 +1,9 @@
 ---
-title: 欢迎来到xuancx的Blog!
+title: 欢迎来到Xuancx的Blog
 layout: "about"
 slug: "about"
-menu:
-    main: 
-        weight: -90
-        params:
-            icon: user
+license: false
+toc: false
 ---
 
 ## 欢迎订阅我的博客
