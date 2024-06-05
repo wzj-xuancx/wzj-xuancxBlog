@@ -674,3 +674,37 @@ body, .article-content {
          font-family: "LXGW WenKai Screen", sans-serif;
     }
     
+
+    #cursor {
+        position: fixed;
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        opacity: 0.25;
+        z-index: 10086;
+        pointer-events: none;
+        transition: 0.2s ease-in-out;
+        transition-property: background, opacity, transform;
+    }
+    
+    #cursor.hidden {
+        opacity: 0;
+    }
+    
+    #cursor.hover {
+        opacity: 0.1;
+        transform: scale(2.5);
+    }
+    
+    #cursor.active {
+        opacity: 0.5;
+        transform: scale(0.5);
+    }
+    
+    [data-scheme="light"] #cursor {
+        background: #000;
+    }
+    
+    [data-scheme="dark"] #cursor {
+        background: #fff;
+    }
