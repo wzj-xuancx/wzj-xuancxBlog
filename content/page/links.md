@@ -7,7 +7,7 @@ toc: false
 ---
 ### Friends 👋
 {{< friend name="Paxton" url="https://blog.paxton-cloud.top/" avatar="https://cravatar.cn/avatar/93BDA8676BB1B99CAAD6E44113D84F83" bio="计算机糕糕手" >}}
-{{< friend name=" Dreamakerr🐑" url="http://dreamakerr.cn/" avatar="https://imagegz.dreamakerr.cn/blog/202404242114068.webp" bio="无限进步🐑" >}}
+{{< friend name=" Dreamakerr🐑" url="http://dreamakerr.cn/" avatar="https://imagehk.dreamakerr.cn/img/202406051126789.webp" bio="无限进步🐑" >}}
 
 ### Gurus 🧙‍♂️
 {{< friend name="BeiYu" url="https://www.bj-yan.top/" avatar="https://cdn.jsdelivr.net/gh/qin2dim/cdn-relay@0.1.0/avatars/44976445.png" bio="北屿小智障！" >}}

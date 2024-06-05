@@ -66,6 +66,17 @@
                 }
             }
 
+            .subscribe-blog {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                box-shadow: var(--shadow-l1);
+
+
+                height: 34px;
+            }
+
             .article-tags {
                 flex-wrap: wrap;
                 text-transform: unset;

@@ -1,5 +1,12 @@
 <footer class="article-footer">
-    {{ partial "article/components/tags" . }}
+
+    <section>
+        {{ partial "article/components/tags" . }}
+        <a href="https://follow.it/xuancx-s-blog?leanpub">
+            <img class="subscribe-blog" src="/img/follow.png" alt="订阅此博客">
+        </a>
+    </section>
+
 
     {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
     <section class="article-copyright">
