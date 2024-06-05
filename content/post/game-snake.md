@@ -2,6 +2,8 @@
 title: 贪吃蛇
 toc: false
 license: false
+tags:
+  - 小游戏
 categories:
   - 小游戏
 description: 贪吃蛇小游戏，通过wasd控制贪吃蛇!
