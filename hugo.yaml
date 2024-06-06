@@ -2,7 +2,7 @@ baseurl: /
 languageCode: zh-CN
 theme: hugo-theme-stack
 paginate: 10
-title: Xuancx's Blog
+title: xuancxの自习室
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -60,16 +60,30 @@ params:
         waline:
             serverURL: https://waline.xuancx.top
             lang: zh-cn
-            visitor: false
+            visitor: true
             avatar: true
             emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+                - https://unpkg.com/@waline/emojis@1.2.0/alus
+                - https://unpkg.com/@waline/emojis@1.2.0/bilibili
+                - https://unpkg.com/@waline/emojis@1.2.0/bmoji
+                - https://unpkg.com/@waline/emojis@1.2.0/qq
+                - https://unpkg.com/@waline/emojis@1.2.0/tieba
+                - https://unpkg.com/@waline/emojis@1.2.0/tw-emoji
+                - https://unpkg.com/@waline/emojis@1.2.0/weibo
+                - https://unpkg.com/@waline/emojis@1.2.0/soul-emoji
             requiredMeta:
                 - nick
                 - mail
             placeholder:
             locale:
                 admin: Admin
+            pageview: true
+            reaction: 
+                - https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_give_love.png
+                - https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_wa.png
+                - https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_what.png
+                - https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_um.png
+                - https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_hmm.png
 
     widgets:
         homepage:
