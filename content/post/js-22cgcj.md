@@ -13,6 +13,7 @@ categories:
 keywords: 大三,web
 description: Web的JS简述
 isCJKLanguage: true
+image: https://image-host-wzj.oss-cn-guangzhou.aliyuncs.com/%E4%B8%8B%E8%BD%BD.png
 ---
 
 # js
