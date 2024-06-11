@@ -4,7 +4,7 @@ slug: short-term-code-24kxav
 url: /post/short-term-code-24kxav.html
 date: '2024-06-11 11:17:53+08:00'
 lastmod: '2024-06-11 11:56:00+08:00'
-toc: true
+toc: false
 tags:
   - hugo
 categories:
