@@ -4,7 +4,7 @@ slug: short-term-code-24kxav
 url: /post/short-term-code-24kxav.html
 date: '2024-06-11 11:17:53+08:00'
 lastmod: '2024-06-11 11:56:00+08:00'
-toc: false
+toc: true
 tags:
   - hugo
 categories:
@@ -14,7 +14,7 @@ description: 讲述了hugo中shortcode的简单知识
 isCJKLanguage: true
 ---
 
-# 短代码
+# ShortCode短代码运用
 
 ## 什么是Shortcode
 
@@ -47,7 +47,7 @@ isCJKLanguage: true
 
 ```
 
-使用方法：`{{< friend name="xxx" url="xxx" avatar="xxx" bio="xxx" >}}`​
+使用方法：`{@{< friend name="xxx" url="xxx" avatar="xxx" bio="xxx" >}}`​
 
 ```html
 {{- 和 -}}: 这对标记用来去除模板语法前后的空白字符。它确保定义变量时不会在输出中留下多余的空白字符。
@@ -85,7 +85,7 @@ $name :=: 定义一个变量$name。在Go模板中，变量以$开头。
 </div>
 ```
 
-使用方法：`{{< bilibili BV1LG4y117w6 >}}`​
+使用方法：`{@{< bilibili BV1LG4y117w6 >}}`​
 
 会转化为：
 
