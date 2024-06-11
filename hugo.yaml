@@ -2,7 +2,7 @@ baseurl: /
 languageCode: zh-CN
 theme: hugo-theme-stack
 paginate: 10
-title: xuancxの自习室
+title: xuancx自习室
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw

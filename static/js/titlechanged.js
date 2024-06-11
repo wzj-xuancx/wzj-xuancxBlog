@@ -4,10 +4,10 @@ window.onload = function() {
 	var titleTime;
 	document.addEventListener('visibilitychange', function() {
 	  if(document.hidden) {
-            document.title = '😭燕子!你快回来啊!!!';
+            document.title = '😭你快回来啊!!!';
             clearTimeout(titleTime);
 	  } else {
-            document.title = '😳嘿嘿你回来了!';
+            document.title = '😳回来了就好!!!';
             titleTime = setTimeout(function() {
 		        document.title = OriginTitile;
 		    }, 2000);
